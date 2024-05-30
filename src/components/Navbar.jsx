@@ -23,9 +23,10 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <h4 className="text-4xl uppercase font-bold text-[#111827]">
+          <a href="#home"><h4 className="text-4xl uppercase font-bold text-[#111827]">
             DP<span className="text-cyan-600 text-xl lowercase">.dev</span>
           </h4>
+          </a>
         </div>
         <div
           className={` ${sticky ? "md:bg-white/0 bg-white" : "bg-white"
